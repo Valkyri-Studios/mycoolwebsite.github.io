@@ -1,0 +1,51 @@
+.navBar {
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: coolfont;
+    display: flex;
+    justify-content: 
+}
+a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    text-transform: uppercase;
+    transition: 250ms;
+}
+a:hover{
+    color: rgb(226, 43, 202);
+    text-decoration: underline;
+    display: inline-block;
+}
+@font-face {
+    font-family: coolfont;
+    src: url(coolfont.ttf);
+}
+img {
+    width: 100%;
+    height: 100%;
+    background: fixed;
+}
+.become_evil {
+    grid-row: 1;
+    grid-column: 1;
+    transition: 250ms;
+}
+.became_evil {
+    grid-row: 1;
+    grid-column: 1;
+}
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1;
+    grid-column: 1;
+}
+.become_evil:hover{
+    opacity: 0%;
+}
+.hobbies{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
